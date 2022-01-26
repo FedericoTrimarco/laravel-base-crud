@@ -14,6 +14,7 @@
                     <th>description</th>
                     <th>src</th>
                     <th>price</th>
+                    <th colspan="3">action</th>
                 </tr>
             </thead>
             <tbody>
@@ -26,6 +27,15 @@
                     <td class="text-truncate" style="max-width: 350px">{{ $comic->description }}</td>
                     <td class="text-truncate" style="max-width: 350px">{{ $comic->src }}</td>
                     <td>{{ $comic->price }}</td>
+                    <td>
+                        <a class="btn btn-success" href="{{ route('comics.show', $comic->id) }}">SHOW</a>
+                    </td>
+                    <td>
+                        EDIT
+                    </td>
+                    <td>
+                        DELTE
+                    </td>
                 </tr>
                 @endforeach
             </tbody>
