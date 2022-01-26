@@ -26,7 +26,7 @@
                 <textarea class="form-control" id="description" name="description" rows="10"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-success align-self-center">Create Comic</button>
+            <button type="submit" class="btn btn-success">Create Comic</button>
         </form>
     </div>
 
