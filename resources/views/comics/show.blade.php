@@ -2,7 +2,7 @@
 
 @section('main-content')
 
-    <div class="container mt-5">
+    <div class="container mt-5 card p-3">
         <div class="row">
             <div class="col-4">
                 <img src="{{$comic->src}}" alt="{{$comic->series}}" class="w-100">

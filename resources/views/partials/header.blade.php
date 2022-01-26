@@ -8,6 +8,9 @@
             <li>
                 <a href="{{ route('comics.index') }}" class="fs-3 nav-link">Comics</a>
             </li>
+            <li>
+                <a href="{{ route('comics.create') }}" class="fs-3 nav-link">Create</a>
+            </li>
         </ul>
     </nav>
 </header>
