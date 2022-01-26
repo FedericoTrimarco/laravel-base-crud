@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@index');
+// HOME
+Route::get('/', 'HomeController@index')->name('home');
+
+// COMICS
+Route::resource('/comics', 'ComicController');

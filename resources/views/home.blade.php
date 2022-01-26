@@ -1,5 +1,9 @@
 @extends('layout.main')
 
 @section('main-content')
-    <h1>CONTENT</h1>
+
+    <div class="container mt-5">
+        <h1>HOME PAGE</h1>
+    </div>
+
 @endsection
