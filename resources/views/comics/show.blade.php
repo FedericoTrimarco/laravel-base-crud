@@ -14,6 +14,7 @@
                 <span class="fs-5"><strong>Price</strong>: {{$comic->price}} €</span>
             </div>
             <div class="mt-5 d-flex">
+                <a class="btn btn-success me-4" href="{{ route('comics.index') }}">HOME</a>
                 <a class="btn btn-primary me-4" href="{{ route('comics.edit', $comic->id) }}">EDIT</a>
                 <form action="{{ route('comics.destroy', $comic->id) }}" method="POST">
                     @csrf

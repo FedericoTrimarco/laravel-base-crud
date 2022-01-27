@@ -58,6 +58,8 @@
                 @endforeach
             </tbody>
         </table>
+
+        {{ $comics->links() }}
     </div>
 
 @endsection
